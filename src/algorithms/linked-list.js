@@ -74,6 +74,11 @@ export class LinkedList {
     let current = this.head
     let previous
 
+    if (index === 0) {
+      this.head = this.head.next
+      return
+    }
+
     while (count < index) {
       previous = current
       current = current.next
@@ -89,6 +94,10 @@ export class LinkedList {
   getAt (index) {
     if (index > this.size || index < 0) {
       return 'index out of range'
+    }
+
+    if (index === 0) {
+      return this.head
     }
 
     let count = 0
