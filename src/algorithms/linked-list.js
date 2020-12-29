@@ -97,7 +97,7 @@ export class LinkedList {
     }
 
     if (index === 0) {
-      return this.head
+      return this.head.data
     }
 
     let count = 0

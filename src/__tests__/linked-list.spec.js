@@ -10,3 +10,13 @@ test('should be able to insert a item in a last position', () => {
 
   expect(ll.getAt(2)).toBe(300)
 })
+
+test('should be able to insert a item in a first position', () => {
+  const ll = new LinkedList()
+
+  ll.insertLast(100)
+  ll.insertLast(200)
+  ll.insertFirst(300)
+
+  expect(ll.getAt(0)).toBe(300)
+})
