@@ -1,5 +1,5 @@
-import { expect, test } from '@jest/globals';
-import { binarySearch } from '../algorithms/binary-search';
+import { expect, test } from '@jest/globals'
+import { binarySearch } from '../algorithms/binary-search'
 
 test('should binarySearch returns -1 if number does not exists in list', () => {
   const list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
