@@ -3,7 +3,7 @@ export const binarySearch = (list, item) => {
   let high = list.length - 1
 
   while (low <= high) {
-    let mid = Math.round((low + high) / 2)
+    const mid = Math.round((low + high) / 2)
 
     if (list[mid] === item) {
       return mid
@@ -14,5 +14,5 @@ export const binarySearch = (list, item) => {
     }
   }
 
-  return -1;
+  return -1
 }
