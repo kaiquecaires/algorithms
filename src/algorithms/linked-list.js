@@ -23,6 +23,7 @@ export class LinkedList {
 
     if (!this.head) {
       this.head = node
+      this.size++
     } else {
       let current = this.head
 
@@ -76,6 +77,7 @@ export class LinkedList {
 
     if (index === 0) {
       this.head = this.head.next
+      this.size--
       return
     }
 
@@ -113,16 +115,14 @@ export class LinkedList {
 
   // Get the index of element
   getIndex (element) {
-    let count = 0
+    const length = this.size
     let current = this.head
 
-    while (current.next) {
+    for (let i = 0; i < length; i++) {
       if (current.data === element) {
-        return count
+        return i
       }
-
       current = current.next
-      count++
     }
 
     return -1
