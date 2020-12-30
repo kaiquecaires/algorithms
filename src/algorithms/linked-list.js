@@ -111,6 +111,23 @@ export class LinkedList {
     return current.data
   }
 
+  // Get the index of element
+  getIndex (element) {
+    let count = 0
+    let current = this.head
+
+    while (current.next) {
+      if (current.data === element) {
+        return count
+      }
+
+      current = current.next
+      count++
+    }
+
+    return -1
+  }
+
   // Clear list
   clear () {
     this.size = 0
