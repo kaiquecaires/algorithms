@@ -17,4 +17,16 @@ export class Recursive {
       return this.count(arr, i)
     }
   }
+
+  findHigh (arr, h = 0, i = 0) {
+    if (arr.length === i) {
+      return h
+    } else {
+      if (arr[i] > h) {
+        h = arr[i]
+      }
+      i++
+      return this.findHigh(arr, h, i)
+    }
+  }
 }
