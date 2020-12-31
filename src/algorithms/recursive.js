@@ -13,7 +13,8 @@ export class Recursive {
     if (arr.length === i) {
       return i
     } else {
-      return this.count(arr, i++)
+      i++
+      return this.count(arr, i)
     }
   }
 }

@@ -9,3 +9,12 @@ test('should be able returns a sum of array result', () => {
 
   expect(result).toBe(25)
 })
+
+test('should be able returns a count of array result', () => {
+  const rr = new Recursive()
+  const arr = [10, 5, 5, 5, 5]
+
+  const result = rr.count(arr)
+
+  expect(result).toBe(5)
+})
