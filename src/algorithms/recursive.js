@@ -29,4 +29,25 @@ export class Recursive {
       return this.findHigh(arr, h, i)
     }
   }
+
+  binarySearch (arr, el, l = 0, h = arr.length - 1, m = 0) {
+    // [10, 5, 50, 5, 500]
+    m = Math.round((h + l) / 2)
+
+    // console.log(m)
+
+    if (l <= h) {
+      if (arr[m] === el) {
+        return m
+      } else if (arr[m] < el) {
+        l = m + 1
+        return this.binarySearch(arr, el, l, h, m)
+      } else {
+        h = m - 1
+        return this.binarySearch(arr, el, l, h, m)
+      }
+    } else {
+      return -1
+    }
+  }
 }
