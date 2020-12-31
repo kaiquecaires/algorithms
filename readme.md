@@ -10,4 +10,4 @@ This is a personal project to train algorithms and data structures.
     - count
     - find high
     - binary search
-  * Quicksort
+    - Quicksort
