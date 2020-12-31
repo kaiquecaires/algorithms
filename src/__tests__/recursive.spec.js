@@ -45,3 +45,12 @@ test('should be able returns -1 if element does not exists', () => {
 
   expect(result).toBe(-1)
 })
+
+test('should be able returns ordered array', () => {
+  const rr = new Recursive()
+  const arr = [50, 30, 80, 2]
+
+  const result = rr.quickSort(arr)
+
+  expect(result).toEqual([2, 30, 50, 80])
+})
