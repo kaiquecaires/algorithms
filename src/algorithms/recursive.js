@@ -47,4 +47,24 @@ export class Recursive {
       return -1
     }
   }
+
+  quickSort (arr) {
+    if (arr.length < 2) {
+      return arr
+    }
+
+    const pivo = arr[0]
+    const low = []
+    const high = []
+
+    for (let i = 1; i < arr.length; i++) {
+      if (arr[i] < pivo) {
+        low.push(arr[i])
+      } else {
+        high.push(arr[i])
+      }
+    }
+
+    return [...this.quickSort(low), pivo, ...this.quickSort(high)]
+  }
 }
