@@ -36,3 +36,12 @@ test('should be able returns a index of element on array', () => {
 
   expect(result).toBe(2)
 })
+
+test('should be able returns -1 if element does not exists', () => {
+  const rr = new Recursive()
+  const arr = [10, 20, 30, 40, 50]
+
+  const result = rr.binarySearch(arr, 100)
+
+  expect(result).toBe(-1)
+})
