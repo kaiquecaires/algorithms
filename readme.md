@@ -11,3 +11,5 @@ This is a personal project to train algorithms and data structures.
     - find high
     - binary search
     - Quicksort
+  * Graphs <br />
+    - find seller
