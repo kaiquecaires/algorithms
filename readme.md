@@ -13,3 +13,4 @@ This is a personal project to train algorithms and data structures.
     - Quicksort
   * Graphs <br />
     - find seller
+    - Dijkstra
