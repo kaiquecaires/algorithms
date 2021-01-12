@@ -12,3 +12,15 @@ test('should be able return a first valid value on the fork', () => {
 
   expect(g.findSeller(fork, 'Kaique')).toBe('Lucas')
 })
+
+test('should be able return a first valid value on the fork', () => {
+  let fork = {}
+  fork['Kaique'] = ['Danilo', 'Vinicius', 'Athayde']
+  fork['Danilo'] = ['Jason', 'Bruno']
+  fork['Vinicius'] = ['Lucas', 'Jason']
+  fork['Athayde'] = ['Daniel', 'Hel']
+
+  let g = new Graphs()
+
+  expect(g.findSeller(fork, 'Kaique')).toBe('Jason')
+})
