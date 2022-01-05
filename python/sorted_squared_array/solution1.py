@@ -8,4 +8,4 @@ def sorted_squared_array(array):
   squared_array.sort()
   return squared_array
 
-print(sorted_squared_array([-1, -2, 1, 2, 3]))
+print(sorted_squared_array([-2, -1, 1, 2, 3]))
