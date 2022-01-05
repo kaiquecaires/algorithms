@@ -1,6 +1,5 @@
 # Time complexity O(log(n))
 # Space complexity O(1)
-
 def two_number_num(array, target_number):
   array.sort()
   left = 0
