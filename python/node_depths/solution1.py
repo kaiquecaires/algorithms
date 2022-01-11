@@ -1,3 +1,4 @@
+# O(n) time | O(h) space - where n is the number of node in the binary three and h is the height of the Binary three
 def node_depths(root):
   arr_total = [0]
   sum_node_depths(root, 0, arr_total)
