@@ -16,6 +16,7 @@ This is a collection of solved algorithms to improve my programming logic
 - Tandem bicycle
 - Tournament winner
 - Two number sum
+- Product sum
 
 # Medium questions:
 - Binary Search Tree
