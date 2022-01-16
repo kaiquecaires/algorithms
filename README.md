@@ -17,6 +17,7 @@ This is a collection of solved algorithms to improve my programming logic
 - Tournament winner
 - Two number sum
 - Product sum
+- Binary search
 
 # Medium questions:
 - Binary Search Tree
