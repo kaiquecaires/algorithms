@@ -11,6 +11,7 @@ This is a collection of solved algorithms to improve my programming logic
 - Find closest value in BST
 - Find three largest numbers
 - Get Nth Fibonacci
+- Insertion sort
 - Is valid subsequence
 - Minimum waiting time
 - Node depths
