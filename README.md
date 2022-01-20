@@ -18,6 +18,7 @@ This is a collection of solved algorithms to improve my programming logic
 - Non constructible change
 - Product sum
 - Remove duplicates from linked list
+- Selection Sort
 - Sorted squared array
 - Tandem bicycle
 - Tournament winner
