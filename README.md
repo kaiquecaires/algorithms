@@ -6,6 +6,7 @@ This is a collection of solved algorithms to improve my programming logic
 - Binary search three
 - Branch sums
 - Bubble Sort
+- Caesar cipher encryptor
 - Class photos
 - Depth first search
 - Find closest value in BST
