@@ -20,6 +20,7 @@ This is a collection of solved algorithms to improve my programming logic
 - Non constructible change
 - Product sum
 - Remove duplicates from linked list
+- Run length encoding
 - Selection Sort
 - Sorted squared array
 - Tandem bicycle
