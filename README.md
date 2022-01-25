@@ -11,6 +11,7 @@ This is a collection of solved algorithms to improve my programming logic
 - Depth first search
 - Find closest value in BST
 - Find three largest numbers
+- Generate document
 - Get Nth Fibonacci
 - Insertion sort
 - Is palindrome
