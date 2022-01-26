@@ -32,3 +32,4 @@ This is a collection of solved algorithms to improve my programming logic
 # Medium questions:
 - Binary Search Tree
 - Breadth first search
+- Three number sum
