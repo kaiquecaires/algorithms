@@ -32,5 +32,6 @@ This is a collection of solved algorithms to improve my programming logic
 # Medium questions:
 - Binary Search Tree
 - Breadth first search
+- Move element to end
 - Smallest difference
 - Three number sum
