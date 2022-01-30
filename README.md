@@ -35,4 +35,5 @@ This is a collection of solved algorithms to improve my programming logic
 - Is monotonic
 - Move element to end
 - Smallest difference
+- Spiral Traverse
 - Three number sum
