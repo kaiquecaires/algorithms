@@ -33,6 +33,7 @@ This is a collection of solved algorithms to improve my programming logic
 - Binary Search Tree
 - Breadth first search
 - Is monotonic
+- Longest peak
 - Move element to end
 - Smallest difference
 - Spiral Traverse
