@@ -30,6 +30,7 @@ This is a collection of solved algorithms to improve my programming logic
 - Two number sum
 
 # Medium questions:
+- Array of products
 - Binary Search Tree
 - Breadth first search
 - Is monotonic
